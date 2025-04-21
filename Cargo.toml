@@ -1,0 +1,13 @@
+[package]
+name = "BallerMentality"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[workspace]
+members = [
+    "crates/bm",
+    "crates/bm-core",
+    "crates/bm-web",
+]
