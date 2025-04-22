@@ -11,3 +11,19 @@ members = [
     "crates/bm-core",
     "crates/bm-web",
 ]
+
+
+[[bin]]
+name = "app"
+path = "crates/bm-core/src/main.rs"
+#path = "src/my_app/main.rs"
+
+#[workspace.package]
+#version = "0.1.0"
+#publish = false
+
+[workspace.dependencies]
+poem = "3.1.9"
+poem-openapi = { version = "5", features = ["swagger-ui"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+#tracing-subscriber = "0.3"
