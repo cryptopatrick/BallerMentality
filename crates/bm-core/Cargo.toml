@@ -7,3 +7,5 @@ edition = "2024"
 poem.workspace = true
 poem-openapi.workspace = true
 tokio.workspace = true
+shuttle-poem.workspace = true
+shuttle-runtime.workspace = true

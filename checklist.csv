@@ -1,0 +1,41 @@
+Phase,Task,Parent Task,Status
+Phase 1: Planning & Design,Define core features and data models,,Todo
+Phase 1: Planning & Design,"Write out core use cases (e.g. login via Google, CRUD on resources, etc.).",,Todo
+Phase 1: Planning & Design,"Draft initial data models (users, posts, comments, etc.).",,Todo
+Phase 1: Planning & Design,Design UI in Figma,,Todo
+Phase 1: Planning & Design,Create wireframes or mockups for main views.,,Todo
+Phase 1: Planning & Design,"Focus on UX for auth flow, dashboard, and key interactions.",,Todo
+Phase 2: Backend Foundations,Scaffold Rust project with Poem,,Todo
+Phase 2: Backend Foundations,Set up basic routing and middleware,,Todo
+Phase 2: Backend Foundations,Configure logging and environment management,,Todo
+Phase 2: Backend Foundations,Run PostgreSQL in Docker (manual),,Todo
+Phase 2: Backend Foundations,Create initial database and user,,Todo
+Phase 2: Backend Foundations,Set up SQLx with DB connection and migrations,,Todo
+Phase 2: Backend Foundations,Implement basic User model,,Todo
+Phase 2: Backend Foundations,Integrate GraphQL with Poem and async-graphql,,Todo
+Phase 2: Backend Foundations,Create test queries and mutations,,Todo
+Phase 2: Backend Foundations,"Implement Google OAuth (token exchange, validation, storage)",,Todo
+Phase 2: Backend Foundations,Create login GraphQL mutation,,Todo
+Phase 3: Frontend Foundations,Initialize SolidJS project with TypeScript (via Vite or SolidStart),,Todo
+Phase 3: Frontend Foundations,"Set up routing, stores, and GraphQL client",,Todo
+Phase 3: Frontend Foundations,Implement Google login button (frontend),,Todo
+Phase 3: Frontend Foundations,Handle token exchange and session persistence,,Todo
+Phase 4: Backend API Buildout,Expand GraphQL schema with main models (CRUD),,Todo
+Phase 4: Backend API Buildout,Write GraphQL resolvers using SQLx,,Todo
+Phase 4: Backend API Buildout,Add authentication guards to schema,,Todo
+Phase 4: Backend API Buildout,Write integration tests with Docker PostgreSQL,,Todo
+Phase 4: Backend API Buildout,Use sqlx::migrate!() in test setup,,Todo
+Phase 5: Frontend Development,Connect frontend to backend via GraphQL,,Todo
+Phase 5: Frontend Development,"Implement core views (dashboard, profile, etc.)",,Todo
+Phase 5: Frontend Development,Build UI components from Figma,,Todo
+Phase 5: Frontend Development,Add loading and error states,,Todo
+Phase 5: Frontend Development,Manage state and caching via signals/stores,,Todo
+Phase 6: Polish & Deployment,Handle error responses and input validation,,Todo
+Phase 6: Polish & Deployment,Sanitize inputs and secure GraphQL mutations,,Todo
+Phase 6: Polish & Deployment,"Deploy backend (e.g., Fly.io, Render)",,Todo
+Phase 6: Polish & Deployment,"Deploy frontend (e.g., Vercel, Netlify)",,Todo
+Phase 6: Polish & Deployment,Add CI/CD with GitHub Actions,,Todo
+Phase 6: Polish & Deployment,"Run type checks, sqlx validation, and build pipelines",,Todo
+Somday,Add GitHub authentication fallback,,Todo
+Somday,Dark mode toggle,,Todo
+Somday,Offline caching or PWA support,,Todo

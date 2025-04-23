@@ -23,7 +23,10 @@ path = "crates/bm-core/src/main.rs"
 #publish = false
 
 [workspace.dependencies]
-poem = "3.1.9"
+poem = "3.0.0"
+#poem = "3.1.9"
 poem-openapi = { version = "5", features = ["swagger-ui"] }
-tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+tokio = { version = "1.26", features = ["macros", "rt-multi-thread"] }
 #tracing-subscriber = "0.3"
+ shuttle-poem = "0.53.0"
+ shuttle-runtime = "0.53.0"
